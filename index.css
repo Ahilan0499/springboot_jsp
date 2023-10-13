@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+}
+.backgroundprimarycolor{
+    background-color: #1DBF73;
+}
+.Logingrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.Mainheight{
+    height: auto;
+}
+.couldcenter{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  
+}
+.topspacing{
+    margin-top: 60px;
+}
+.Textcolor{
+    color: white;
+}
+.titlefontsize{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 8px;
+}
+.watchfontsize{
+    margin-top: 70px;
+    font-size: 20px;
+}
+.Crackimge{
+    position: absolute;top: 0;
+}
+@media only screen and (max-width: 600px) {
+    .Logingrid{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+  }
+.rect{
+    height: 589.96px;
+    width: 625.63px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left:10px        
+}
+
+
+.align{
+    display: grid;
+    grid-template-columns: repeat(3,168.24px);
+    grid-auto-rows: 83.38px;
+    gap:10px;
+}
+
+.rect1 {
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+  
+    
+    
+  }
+
+  .rect1 img {
+    max-width: 100%; /* Make sure the image fits within the box */
+    max-height: 100%; /* Make sure the image fits within the box */
+    height: auto; /* Maintain the image's aspect ratio */
+    position: absolute;
+    top: 100px; /* 100px from the top */
+    left: 50px;
+  }
+  .rectanglebox {
+    background-color: #1DBF73;
+    padding: 10px;
+    text-align: center;
+    width: 168.24px; 
+    height: 74.96px;
+    margin-top:180px;
+  }
